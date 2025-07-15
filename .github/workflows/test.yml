@@ -1,6 +1,8 @@
 name: Test
 
 on:
+  schedule:
+    - cron: "*/15 4-9 * * 1-5"
   workflow_dispatch:
 
 jobs:
